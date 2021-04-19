@@ -30,6 +30,7 @@ public class Test {
         order1.addProduct(product8);
         order1.addProduct(product9);
         order1.addProduct(product10);
+        order1.addProduct(product11);
            
         order1.showOrder();
     }
