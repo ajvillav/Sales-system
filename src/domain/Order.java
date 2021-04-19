@@ -17,7 +17,7 @@ public class Order {
         if (this.productCounter < MAX_PRODUCTS) {
             products[this.productCounter++] = product;
         } else {
-            System.out.println("You already have" + MAX_PRODUCTS + " products, can't buy more");
+            System.out.println("You already have" + MAX_PRODUCTS + " products, can't buy more.");
         }
     }
     
